@@ -3,6 +3,7 @@
 * The main aim is to study javascript. I am careful and punctual.
 * Had some experience with C#, Unity and Python.
 * Here comes the code example:
+
 ```
 using System.Collections;
 using System.Collections.Generic;
