@@ -4,7 +4,7 @@
 * Had some experience with C#, Unity and Python.
 * Here comes the code example:
 
-```
+`
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -54,7 +54,7 @@ public class Field : MonoBehaviour
                 field[x, y].SetValue(x, y, 0);
     }
 } 
-```
+`
 
 * C# - beginning by GeekBrains, studying at the 8th grate at the moment
 * B1 English
