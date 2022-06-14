@@ -1,8 +1,10 @@
-* Ivan Zhurikho
-* Telegram: @I_ASID_I Discord: Dexenys#7888
-* The main aim is to study javascript. I am careful and punctual.
-* Had some experience with C#, Unity and Python.
-* Here comes the code example:
+<ul>
+  <img src="/avat.png">
+  <li>Ivan Zhurikho</li>
+  <li>Telegram: @I_ASID_I Discord: Dexenys#7888</li>
+  <li>The main aim is to study javascript. I am careful and punctual.</li>
+  <li>Had some experience with C#, Unity and Python.</li>
+  <h2>Code example:</h2>
 
 ```
 
@@ -57,6 +59,7 @@ public class Field : MonoBehaviour
 } 
 
 ```
-
-* C# - beginning by GeekBrains, studying at the 8th grate at the moment
-* B1 English
+  <h2>Education</h2>
+  <li>C# - beginning by GeekBrains, finished 8th</li>
+  <li>B1 English</li>
+</ul>
