@@ -4,7 +4,7 @@
   <li>Telegram: @I_ASID_I Discord: Dexenys#7888</li>
   <li>The main aim is to study javascript. I am careful and punctual.</li>
   <li>Had some experience with C#, Unity and Python.</li>
-  <li>Here comes the code example:</li>
+  <h2>Code example:</h2>
 
 ```
 
@@ -59,7 +59,7 @@ public class Field : MonoBehaviour
 } 
 
 ```
-
-  <li>C# - beginning by GeekBrains, studying at the 8th grate at the moment</li>
+  <h2>Education</h2>
+  <li>C# - beginning by GeekBrains, finished 8th</li>
   <li>B1 English</li>
 </ul>
