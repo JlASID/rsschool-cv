@@ -1,4 +1,5 @@
 <ul>
+  <img src="/avat.png">
   <li>Ivan Zhurikho</li>
   <li>Telegram: @I_ASID_I Discord: Dexenys#7888</li>
   <li>The main aim is to study javascript. I am careful and punctual.</li>
