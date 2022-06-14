@@ -1,0 +1,65 @@
+<ul>
+  <img src="/avat.png">
+  <li>Ivan Zhurikho</li>
+  <li>Telegram: @I_ASID_I Discord: Dexenys#7888</li>
+  <li>The main aim is to study javascript. I am careful and punctual.</li>
+  <li>Had some experience with C#, Unity and Python.</li>
+  <h2>Code example:</h2>
+
+```
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Field : MonoBehaviour
+{
+    [Header("Field Properties")]
+    public float CellSize;
+    public float Spacing;
+    public int FieldSize;
+    [Space(10)]
+    [SerializeField]
+    private Cell cellPref;
+    [SerializeField]
+    private RectTransform rt;
+
+    private Cell[,] field;
+    private void Start()
+    {
+        GenerateField();
+    }
+    private void CreateField()
+    {
+        field = new Cell[FieldSize, FieldSize];
+        float fieldwidth = FieldSize * (CellSize + Spacing) + Spacing;
+        rt.sizeDelta = new Vector2(fieldwidth, fieldwidth);
+        float startX = -(fieldwidth / 2) + (CellSize / 2) + Spacing;
+        float startY = (fieldwidth / 2) - (CellSize / 2) - Spacing;
+
+        for(int x = 0; x < FieldSize; x++)
+        {
+            for(int y = 0; y < FieldSize; y++)
+            {
+                var cell = Instantiate(cellPref, transform, false);
+                var position = new Vector2(startX + (x * (CellSize + Spacing)), startY - (y * (CellSize - Spacing)));
+                field[x, y] = cell;
+                cell.SetValue(x, y, 0);
+            }
+        }
+    }
+    private  void GenerateField()
+    {
+        if (field == null)
+            CreateField();
+        for (int x = 0; x < FieldSize; x++)
+            for (int y = 0; y < FieldSize; y++)
+                field[x, y].SetValue(x, y, 0);
+    }
+} 
+
+```
+  <h2>Education</h2>
+  <li>C# - beginning by GeekBrains, finished 8th</li>
+  <li>B1 English</li>
+</ul>
