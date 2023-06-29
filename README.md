@@ -1,2 +1,2 @@
 # rsschool-cv
-https://jlasid.github.io/rsschool-cv/cv
+https://jlasid.github.io/rsschool-cv/
