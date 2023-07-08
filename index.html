@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>cv</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+    </head>
+    <body class="body">
+        <header class = "header">
+            <div class="container">
+                <nav>
+                    <ul class="nav-list">
+                        <li><a class="nav-link" href="#code_example">Code example</a></li>
+                        <li><a class="nav-link" href="#contacts">Contacts</a></li>
+                        <li><a class="nav-link" href="#about_me">About me</a></li>
+                        <li><a class="nav-link" href="#skills">Skills</a></li>
+                        <li><a class="nav-link" href="#experience">Experience</a></li>
+                        <li><a class="nav-link" href="#education">Education</a></li>
+                        <li><a class="nav-link" href="#english">English level</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </header>
+        <main class = "main">
+            <div class="container main-container">
+                <section class="section-title" id="name">
+                    <h1 class="section-item">Ivan Zhurikho</h1>
+                    <img class="section-item" src="images/avatar.jpg" alt="avatar" width="300">
+                </section>
+                <section class="section-title" id="code_example">
+                    <h2 class="section-item">Code example</h2>
+                    <pre class="section-item"><code>
+static string Reverse(string s)
+{
+    string revS = "";
+    foreach (char c in s)
+        revS = c + revS;
+    return revS;
+}
+                    </code></pre>
+                    <br>
+                </section>
+                <section class="section-title" id="contacts">
+                    <h2 class="section-item">Contacts</h2>
+                    <ul class="section-item">
+                        <li>Discord: dexenys</li>
+                        <li>Telegram: I_ASID_I</li>
+                    </ul>
+                    <br>
+                </section>
+                <section class="section-title" id="about_me">
+                    <h2 class="section-item">About me</h2>
+                    <p class="section-item">willing to learn how to create a site</p>
+                    <br>
+                </section>
+                <section class="section-title" id="skills">
+                    <h2 class="section-item">Skills</h2>
+                    <p class="section-item">C# (.Net Framework), C++, Python, Unity3D</p>
+                    <br>
+                </section>
+                <section class="section-title" id="experience">
+                    <h2 class="section-item">Experience</h2>
+                    <p class="section-item">zero</p>
+                    <br>
+                </section>
+                <section class="section-title" id="education">
+                    <h2 class="section-item">Education</h2> 
+                    <p class="section-item">completed compulsory education; C# level 1 GeekBrains</p>
+                    <br>
+                </section>
+                <section class="section-title" id="english">
+                    <h2 class="section-item">English level</h2>
+                    <p class="section-item">B2</p>
+                </section>
+            </div>
+        </main>
+        <footer class = "footer">
+            <div class="container">
+                <ul class="footer-list">
+                    <li><a href="https://rs.school/js/"><img class="footer-item" src="images/RSSLogo.png" alt="Лого курса" width="50"></a></li>
+                    <li><a class="footer-item">2023 ©</a></li>
+                    <li><a class="footer-item" href="https://github.com/JlASID">JlASID</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
